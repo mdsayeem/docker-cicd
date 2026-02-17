@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello from GitHub → Docker Hub → EC2 CI/CD! pipeline tetsting 3 \n");
+  res.end("Hello from GitHub → Docker Hub → EC2 CI/CD! pipeline tetsting is successfull \n");
 });
 
 server.listen(port, () => console.log(`Server running on port ${port}`));
